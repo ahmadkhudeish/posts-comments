@@ -12,7 +12,7 @@ const Post = ({ userId, id, title,  body }: PostModel) => {
     <Message>
         <Message.Header >{title}</Message.Header>
         <Message content={body}/>
-        <Button onClick={() => dispatch(getComments(id))}>View More</Button>
+        <Button onClick={() => dispatch(getComments(id))}>View comments</Button>
     </Message>
   )
 };
