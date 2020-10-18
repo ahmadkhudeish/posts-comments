@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
-import EnvConstants from '../config/EnvConstansts';
+import EnvConstants from '../config/EnvConstants';
 
 const instance = axios.create({
   baseURL: EnvConstants.BASE_URL,
